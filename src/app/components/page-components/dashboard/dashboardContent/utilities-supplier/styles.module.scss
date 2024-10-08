@@ -1,0 +1,76 @@
+.UtilitysupplierPage{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 340px;
+    padding-left: 20px;
+    background-color: rgb(51 52 53 / 5%);
+    padding: 10px 20px ;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    h4{
+        font-size: 18px;
+        font-weight: 700;
+        color: #111;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+}
+.pageContainer{
+    height: 75%;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 20px;
+    // background: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.utilitycards{
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    // justify-content: center;
+    padding: 15px 20px;
+    border: 12px;
+    box-shadow:rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    .utilityRating{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: #ffffff;
+        font-weight: 700;
+        margin-right: 10px;
+    }
+    .utilitydatarow{
+        a{
+            color: #111;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        .utilityCol{
+            margin-top: 8px;
+            font-size: 14px;
+            font-style: italic;
+            color: grey;
+        }
+    }
+}
+.utilityButton{
+    background-color: #111;
+    width: 100%;
+    padding: 14px 0;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}

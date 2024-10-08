@@ -1,0 +1,49 @@
+.onboardingPage{
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(198, 198, 198, 0.889);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.onboardingBox{
+    width: 1100px;
+    min-height: 700px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 40px 0;
+    display: flex;
+    padding: 40px 30px;
+}
+
+.dividerline{
+    width: 2px;
+    background-color: rgba(198, 198, 198, 0.417);
+}
+
+@media screen and (max-width:1300px){
+    .onboardingBox{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1000px){
+    .dividerline{
+        display: none;
+    }
+}
+@media screen and (max-width:850px){
+    .onboardingBox{
+        width: 80%;
+        padding: 40px 10px;
+        margin: 20px;
+    }
+}
+@media screen and (max-width:500px){
+    .onboardingBox{
+        width: 90%;
+        padding: 40px 10px;
+        margin: 20px;
+    }
+}
+

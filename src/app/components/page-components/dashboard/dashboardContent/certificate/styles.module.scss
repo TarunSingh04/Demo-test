@@ -1,0 +1,111 @@
+.CertificatePage{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 340px;
+    padding-left: 20px;
+    background-color: rgb(245 245 245 / 96%);
+    background-color: rgb(51 52 53 / 5%);
+    padding: 10px 20px ;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    h4{
+        font-size: 18px;
+        font-weight: 700;
+        color: #111;
+        margin-bottom: 20px;
+    }
+}
+
+.taskheaderBox{
+    display: flex;
+    justify-content: space-between;
+}
+.taskHead{
+    display: flex;
+    justify-content: space-between;
+}
+.taskBox{
+    background-color: #fff;
+    width: 320px;
+    padding: 28px 20px;
+    border-radius: 20px;   
+    margin-bottom: 10px;
+    padding-right: 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;   
+}
+.taskHeader{
+    font-weight: 700;
+    color:"#111";
+    margin-left:"20px";
+    font-size: "18px";
+}
+.taskDesc{
+    font-size: 12px;
+    color: rgb(134, 134, 134);
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 8px;
+    padding-right: 20px ;
+}
+.tags{
+    width: 100%;
+    margin-top: 20px;
+}
+.todo{
+    width: 100%;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 600;
+    color: #0077ff;
+    background: #0077ff2a;
+    padding: 4px 15px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.progress{
+    width: 100%;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 600;
+    color: #e08905;
+    background: #ff9b0047;
+    padding: 4px 20px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.done{
+    width: 100%;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 600;
+    color: #059b03;
+    background: #06c40433;
+    padding: 4px 20px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.taskexpbtn{
+    width: 100%;
+    border: none;
+    background-color: #111111b7;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.certificateButton{
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}

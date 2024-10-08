@@ -1,0 +1,204 @@
+.pricing{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(242, 242, 242, 0.922);
+}
+.pricingBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.AuthHeader{
+    width: 90%;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        font-weight: 800;
+        margin-left: 8px;
+        font-size: 40px;
+        text-transform:uppercase;
+        span{
+            color: rgb(24, 119, 242);
+        }
+    }
+}
+.priceHead1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(24, 119, 242);
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.priceHead3{
+    font-size: 16px;
+    color: rgb(149, 150, 150);
+    margin-top: 15px;
+}
+
+.pricingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    width: 320px;
+    height: 500px;
+    border: 2px solid rgb(208, 225, 246);
+    margin: 60px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    display: flex;
+    box-shadow: rgba(208, 225, 246, 0.371) 0px 25px 50px -12px;
+    flex-direction: column;
+    position: relative;
+    .tag{
+        width: 80px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        padding: 5px 10px;
+        border-radius: 20px;
+        background-color: #d5e2ff;
+        color: rgba(24, 118, 242, 0.744);
+        font-weight: 700;
+    }
+    .tabContainer{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .priceType{
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    .price{
+        font-size: 40px;
+        font-weight: 700;
+        color: rgba(24, 118, 242, 0.834);
+        span{
+            font-size: 16px;
+            color: rgb(167, 167, 167);
+            font-weight: 500;
+            margin-left: 15px;
+        }
+        margin-bottom: 28px;
+    }
+    .subline{
+        color: rgb(167, 167, 167);
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .pricingbtn{
+        width: 90%;
+        text-align: center;
+        padding: 18px 0px;
+        background-color: #d5e2ff;
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+        color: rgb(51, 132, 238);
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 110px;
+        position: absolute;
+        left: 5%;
+        top: 65%;
+    }
+    .pricingbtn:hover{
+        background-color: #c9d9fb;
+    }
+    .checklogo{
+        color: #d5e2ff;
+        background-color: rgba(82, 155, 249, 0.834);
+        border-radius: 50%;
+        font-size: 20px;
+    }
+    .cardFeatures{
+        display: flex;
+        margin: 20px 0;
+        p{
+            font-size: 14px;
+            margin-left: 10px;
+            color: rgb(147, 147, 147);
+            font-weight: 500;
+        }
+    }
+}
+@media screen and (max-width:1350px){
+    .pricingContainer{
+        width: 100%;
+    }
+    .cards{
+        width: 30%;
+    }
+}
+@media screen and (max-width:1130px){
+    .pricingContainer{
+        width: 100%;
+    }
+    .cards{
+        width: 30%;
+        margin: 30px 10px;
+    }
+}
+@media screen and (max-width:910px){
+    .cards{
+        .subline{
+            font-size: 14px;
+        }
+        .price{
+            font-size: 34px;
+            span{
+                font-size: 12px;
+            }
+        }
+    }
+}
+@media screen and (max-width:800px){
+    .pricingContainer{
+        flex-direction: column;
+    }
+    .cards{
+        width: 60%;
+        .price{
+            font-size: 40px;
+            span{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px){
+    .cards{
+        width: 70%;
+    }
+}
+@media screen and (max-width:490px){
+    .priceHead3{
+        padding: 0 20px;
+        text-align: center;
+    }
+    .AuthHeader{
+        p{
+            font-size: 30px;
+            margin-right: 0;
+            padding-right: 0;
+        }
+    }
+}
+
+@media screen and (max-width:350px){
+    .card{
+        width: 70%;
+    }
+}

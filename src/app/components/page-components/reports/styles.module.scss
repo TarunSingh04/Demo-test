@@ -1,0 +1,94 @@
+.scorecard{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 30px;
+}
+.badgeheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.119);
+    padding-bottom: 20px;
+    .badgeheaderinfo1{
+        margin-left: 20px;
+    }
+    .badgeheaderinfo2cont{
+        width: 220px;
+        height:220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin-right: 30px;
+        // background-color: rgba(128, 128, 128, 0.056);
+    }
+    .badgeheaderinfo2{
+        width: 180px;
+        height: 180px;
+        border-radius: 50% ;
+        font-size: 100px;
+        color: #fff;
+        border: 10px solid #fff ;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        // margin-right: 60px;
+    }  
+    h2{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 25px;
+        color: grey;
+        font-weight: 700;
+        font-style: italic;
+        span{
+            color: #111;
+        }
+    }
+    .susHeaderImg{
+        border-radius: 50%;
+        margin-right: 100px;
+    }
+}
+
+.scorecardBody{
+    margin-top: 50px;
+    padding-left: 15px;
+    h2{
+        color: #111;
+    }
+}
+.scorecardBody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .scorecardsubcontbar{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 60px;
+        p{
+            width: 33%;
+            text-align: center;
+            font-size: 24px;
+            color: grey;
+            padding-bottom: 20px;
+            cursor: pointer;
+        }
+        .boldScoreSection{
+            font-weight: 700;
+            color: #111;
+            border-bottom: 3px solid #111;
+        }
+        border-bottom: 1px solid rgba(128, 128, 128, 0.303);
+    }
+}
+.scorecardBodyContent{
+    margin-top: 45px;
+}

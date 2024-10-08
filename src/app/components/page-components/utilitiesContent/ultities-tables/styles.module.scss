@@ -1,0 +1,148 @@
+.dataTableContainer {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 0;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.108);
+    margin-top: 40px;
+  }
+  .utilityTableLinks{
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+  }
+  
+  .tableHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .searchContainer {
+    position: relative;
+    width: 300px;
+    border-radius: 20px;
+  }
+  
+  .searchInput {
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+  }
+  
+  .searchIcon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  .filtersButton {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .dataTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin-top: 20px;
+    
+    th, td {
+      padding: 15px;
+      text-align: left;
+      background-color: white;
+    }
+  
+    th {
+      font-weight: bold;
+      color: #111;
+      background-color: #0000000a;
+    }
+  
+    tr td {
+      &:first-child {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+      &:last-child {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+    }
+  
+    th.sortable {
+      cursor: pointer;
+    }
+  
+    tbody tr {
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    }
+  }
+  .theadUtility{
+    background: #11111106;
+  }
+  .status {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    &.a {
+      background-color: #e6f7ed;
+      color: #00a854;
+    }
+    
+    &.b {
+      background-color: #fff1f0;
+      color: #f5222d;
+    }
+    
+    &.c {
+      background-color: #fff7e6;
+      color: #fa8c16;
+    }
+  }
+  .pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    button{
+        color: #ffffff;
+        background-color: #111;
+        border: none;
+        padding: 5px 15px;
+        cursor: pointer;
+        margin: 0 10px;
+        font-weight: 900;
+    }
+  }
+  .dataTableHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input{
+        border-radius: 15px;
+        padding: 15px;
+        width: 250px;
+    }
+    h3{
+        margin-left: 13px;
+        color: #111;
+        font-size: 20px;
+    }
+  }

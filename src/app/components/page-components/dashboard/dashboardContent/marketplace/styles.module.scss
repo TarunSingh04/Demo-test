@@ -1,0 +1,54 @@
+.Marketplace{
+    width: 580px;
+    display: flex;
+    background-color: rgb(51 52 53 / 5%);
+    border-radius: 20px;
+    padding: 0px 20px;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    height: 460px;
+    h4{
+        font-size: 18px;
+        font-weight: 700;
+        color: #111;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+.marketplacesubcont{
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .marketIcon{
+        font-size: 120px;
+        border: 20px;
+        color: rgb(10, 118, 251);
+    }
+    h1{
+        width: 60%;
+        text-align: center;
+        font-size: 26px;
+        margin: 10px 0;
+        // color: rgb(10, 118, 251);
+    }
+    button{
+        width: 80%;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        border: none;
+        color: #fff;
+        background: #111;
+        border: none;
+        margin-top: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}

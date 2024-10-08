@@ -1,0 +1,342 @@
+.sidenavQuestion{
+    width: 65%;
+    padding: 20px 50px;
+}
+.wrapperInputBox{
+    display: flex;
+    flex-direction: column;
+    input{
+        padding: 11px 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 5px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 12px;
+        margin-bottom: 2px;
+    }
+    select{
+        padding: 14px 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 2px solid #d5e2ff;
+        border-radius: 5px;
+        cursor: pointer;
+        // width: 50%;
+    }
+}
+
+.wrapperInputBox1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    input{
+        padding: 14px 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 2px solid #d5e2ff;
+        border-radius: 5px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 12px;
+        margin-bottom: 2px;
+    }
+    select{
+        padding: 14px 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 2px solid #d5e2ff;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 96%;
+    }
+}
+
+.wrapperInputBox2{
+    margin-bottom: 370px;
+    display: flex;
+    flex-direction: column;
+    input{
+        padding: 14px 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 2px solid #d5e2ff;
+        border-radius: 5px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 12px;
+        margin-bottom: 2px;
+    }
+    select{
+        padding: 14px 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 2px solid #d5e2ff;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 96%;
+    }
+}
+
+.wrapperInputBox3{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    input{
+        padding: 14px 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 2px solid #d5e2ff;
+        border-radius: 5px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 12px;
+        margin-bottom: 2px;
+    }
+    select{
+        padding: 14px 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 2px solid #d5e2ff;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 96%;
+    }
+}
+
+.ImageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 75px 0;
+    margin-bottom: 0px;
+    .ProfileImage{
+        border-radius: 10px;
+    }
+    .ImageButtons{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        button{
+            cursor: pointer;
+            padding: 6px 40px;
+            border: none;
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+            background-color: rgb(24, 119, 242);
+            border-radius: 5px;
+        }
+        .uploadButton{
+            cursor: pointer;
+            padding: 6px 40px;
+            border: none;
+            font-size: 16px;
+            font-weight: 600;
+            background-color: #d5e2ff;
+    color: rgb(24, 119, 242);
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .removeButton{
+            color: rgb(95, 94, 94);
+            background-color: rgba(169, 169, 169, 0.33);
+            margin-left: 15px;
+        }
+    }
+}
+.continuebtn{
+    border: none;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 14px 0;
+    background-color: rgb(225 225 225);
+    color: #111827;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btnBox{
+    display: flex;
+    justify-content:space-between;
+}
+.btnBox1{
+    display: flex;
+    justify-content:flex-end;
+}
+.question2content{
+    display: flex;
+    flex-direction: column;
+    // width: 90%;
+}
+.selectors{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.selectUtilitySector{
+    padding: 20px;
+    background-color: #d5e2ff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.sectorCard{
+    display: flex;
+    background-color: #d5e2ff;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    .sectorIcon{
+        color: #fbf7f7;
+        font-size: 30px;
+        margin-right: 20px;
+        color: #000;
+        border-radius: 50%;
+        border: none;
+    }
+    h3{
+        font-size: 16px;
+        margin-bottom: 5px;
+        font-style: italic;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 0;
+        font-style: italic;
+    }
+}
+
+.sectorCard2{
+    display: flex;
+    background-color: #d5e2ff;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    .sectorIcon{
+        color: #fbf7f7;
+        font-size: 30px;
+        margin-right: 20px;
+        color: #000;
+        border-radius: 50%;
+        border: none;
+    }
+    h3{
+        font-size: 16px;
+        margin-bottom: 5px;
+        font-style: italic;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 0;
+        font-style: italic;
+    }
+}
+
+.fileUpload {
+    max-width: 28rem;
+    margin: 2.5rem auto;
+  
+    .uploadBox {
+      border: 2px dashed #d1d5db; // gray-300
+      border-radius: 0.5rem; // rounded-lg
+      padding: 1.5rem; // p-6
+      text-align: center;
+  
+      svg {
+        margin: 0 auto;
+        height: 3rem; // h-12
+        width: 3rem; // w-12
+        color: #9ca3af; // gray-400
+      }
+  
+      h3 {
+        margin-top: 0.5rem; // mt-2
+        font-size: 0.875rem; // text-sm
+        font-weight: 500; // font-medium
+        color: #111827; // gray-900
+      }
+  
+      p {
+        margin-top: 0.25rem; // mt-1 or mt-2 for subsequent paragraphs
+        font-size: 0.875rem; // text-sm for some, text-xs for others
+  
+        &.fileInstruction {
+          color: #6b7280; // gray-500
+        }
+  
+        &.fileInfo {
+          color: #3b82f6; // blue-500
+          font-size: 0.75rem; // text-xs
+        }
+      }
+  
+      .fileTypes {
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem; // space-x-2
+  
+        .fileType {
+          display: flex;
+          align-items: center;
+  
+          .fileIcon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1.5rem; // w-6
+            height: 1.5rem; // h-6
+            border-radius: 0.375rem; // rounded
+            font-size: 0.75rem; // text-xs
+            font-weight: 600; // font-semibold
+  
+            &.pdf {
+              background-color: #e9d5ff; // bg-purple-200
+              color: #6b21a8; // text-purple-700
+            }
+  
+            &.doc {
+              background-color: #fbcfe8; // bg-pink-200
+              color: #be185d; // text-pink-700
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width:1000px){
+    .sidenavQuestion{
+        width: 100%;
+    }
+  }
+  @media screen and (max-width:800px){
+    .sidenavQuestion{
+        padding: 20px;
+    }
+  }
+  @media screen and (max-width:410px){
+    .continuebtn{
+        width: 120px;
+    } 
+  }

@@ -1,0 +1,193 @@
+.Maincard{
+    width: 1250px;
+    // min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;;
+    margin-top: 60px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.MaincardHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 5px solid rgba(128, 128, 128, 0.14);
+    h2{
+        font-size: 55px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    p{
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 600;
+        color: rgba(128, 128, 128, 0.729);
+        span{
+            color: #111;
+        }
+        margin-left: 50px;
+    }
+    .susHeaderImg{
+        border-radius: 50%;
+        margin-right: 50px;
+    }
+}
+.datesCont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    margin-top: 50px;
+    .datessub1{
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        color: rgba(128, 128, 128, 0.601);
+        span{
+            color: #111;
+        }
+    }
+    .datessub2{
+        margin-right: 50px;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        color: rgba(128, 128, 128, 0.601);
+        span{
+            color: #111;
+        }
+    }
+}
+
+.scorescont{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    // justify-content: center;
+    .overallscore{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 25px;
+        // margin-left: 50px;
+        .scorescontsub{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 30px solid #111;
+            width: 120px;
+            height: 120px; 
+            border-radius: 50%;
+            h2{
+                font-size: 60px;
+                margin-bottom: 0px;
+            }
+            p{
+                font-size: 18px;
+                margin-top: 0px;
+            }
+            margin-bottom: 15px;
+        }
+    }
+}
+.scoredividerline{
+    width: 5px;
+    height: 200px;
+    background-color: rgba(145, 145, 145, 0.089);
+    margin: 25px;
+}
+.maincardBody{
+    margin: 15px 50px;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.maincardBody2{
+    margin: 15px 50px;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 40px;
+    .mainTitle{
+        font-size: 24px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.467);
+    }
+}
+.maincardBodytxt{
+    margin: 15px 50px;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.contentbody{
+    margin-top: 0px;
+    padding: 5px 0px;
+    // border: 1px solid rgba(128, 128, 128, 0.233);
+    font-size: 18px;
+    p{
+        margin-top: 10px;
+    }
+}
+.contentsubbody1{
+    margin-top: 10px;
+    font-size: 18px;
+    p{
+       margin-top: 10px;
+    }
+}
+
+.contentsubbody2{
+    margin-top: 15px;
+    font-size: 18px;
+    p{
+        margin-top: 10px;
+    }
+    padding-bottom: 5px;
+}
+.maincardBody3{
+    margin: 10px 50px;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 0px;
+    // font-style: italic;
+    h4{
+        font-size: 24px;
+        padding-bottom: 2px;
+    }
+    .mainTitle{
+        font-size: 24px;
+        margin-bottom: 0px;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.467);
+    }
+    .contentbody{
+        margin-top: 0px;
+        padding: 10px 0px;
+        border: none;
+        font-size: 16px;
+        p{
+            margin-top: 20px;
+        }
+        h4{
+            font-size: 18px;
+        }
+    }
+    .contentsubbody1{
+        margin-top: 5px;
+        font-size: 16px;
+        p{
+           margin-top: 10px;
+        }
+    }
+    
+    .contentsubbody2{
+        margin-top: 15px;
+        font-size: 16px;
+        p{
+            margin-top: 10px;
+        }
+        padding-bottom: 5px;
+    }
+}

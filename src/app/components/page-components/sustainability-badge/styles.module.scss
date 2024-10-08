@@ -1,0 +1,52 @@
+.Sustainability{
+    min-height: 100vh;
+    width: 1300px;
+    padding: 100px 30px;
+}
+.badgeheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid rgba(128, 128, 128, 0.221);
+    padding-bottom: 20px;
+    .badgeheaderinfo1{
+        margin-left: 20px;
+    }
+    h2{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 25px;
+        color: grey;
+        font-weight: 700;
+        font-style: italic;
+        span{
+            color: #111;
+        }
+    }
+    .susHeaderImg{
+        border-radius: 50%;
+        margin-right: 100px;
+    }
+}
+
+.BadgeBody{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.BadgeBodyInfo{
+    width: 60%;
+    margin-top: 50px;
+    h2{
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
